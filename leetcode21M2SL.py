@@ -13,7 +13,7 @@ class Solution:
         """
         testnode = ListNode(0)
         cur = testnode
-        while(l1 & l2):
+        while(l1 and l2):
             if l1.val <= l2.val:
                 cur.next = l1
                 l1 = l1.next
