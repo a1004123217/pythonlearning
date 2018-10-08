@@ -1,0 +1,1 @@
+a = int(input("please input a interger"))
