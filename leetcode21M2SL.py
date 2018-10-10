@@ -18,7 +18,7 @@ class Solution:
                 cur.next = l1
                 l1 = l1.next
                 cur = cur.next
-            else
+            else:
                 cur.next = l2
                 l2 = l2.next
                 cur = cur.next
