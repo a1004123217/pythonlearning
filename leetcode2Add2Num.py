@@ -13,7 +13,7 @@ class Solution(object):
         """
         p = l1;
         q = l2;
-        rst = ListNode()
+        rst = ListNode(0)
         cur = rst
         upcarry = 0
         while(l1 or l2 or upcarry):
